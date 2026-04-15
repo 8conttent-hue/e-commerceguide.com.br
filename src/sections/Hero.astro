@@ -1,0 +1,57 @@
+---
+// Hero-B: Split — texto esquerda, imagem direita
+interface Props {
+  title: string;
+  subtitle: string;
+  btnText: string;
+  btnLink: string;
+  bgImage: string;
+}
+const { title, subtitle, btnText, btnLink, bgImage } = Astro.props;
+---
+<section class="bg-gradient-to-br from-dark to-accent overflow-hidden">
+  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-0 min-h-[60vh]">
+    <!-- Texto esquerda -->
+    <div class="flex flex-col justify-center py-16 pr-8">
+      <span class="inline-block text-xs font-bold uppercase tracking-widest text-primary bg-primary/10 border border-primary/20 px-3 py-1 rounded-full mb-6 w-fit">
+        Novo conteúdo disponível
+      </span>
+      <h1 class="text-4xl md:text-5xl font-black text-white leading-tight mb-6">
+        {title}
+      </h1>
+      <p class="text-white/70 text-lg leading-relaxed mb-8">
+        {subtitle}
+      </p>
+      <div class="flex flex-wrap gap-4">
+        <a
+          href={btnLink}
+          class="inline-flex items-center gap-2 px-7 py-3.5 bg-primary text-white font-bold rounded-xl hover:opacity-90 transition-opacity shadow-lg shadow-primary/30"
+        >
+          {btnText}
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </a>
+        <a
+          href="/sobre"
+          class="inline-flex items-center gap-2 px-7 py-3.5 text-white/80 border border-white/20 rounded-xl hover:bg-white/10 transition-colors"
+        >
+          Sobre nós
+        </a>
+      </div>
+    </div>
+
+    <!-- Imagem direita -->
+    <div class="relative hidden md:block">
+      <div class="absolute inset-0 flex items-center">
+        <img
+          src={bgImage}
+          alt={title}
+          class="w-full h-full object-cover rounded-l-3xl opacity-70"
+          loading="eager"
+        />
+        <div class="absolute inset-0 bg-gradient-to-r from-dark/50 to-transparent rounded-l-3xl"></div>
+      </div>
+    </div>
+  </div>
+</section>

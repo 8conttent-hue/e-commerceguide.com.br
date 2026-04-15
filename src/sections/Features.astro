@@ -1,0 +1,40 @@
+---
+// Features-G: Minimalistic Line Icons - Design sofisticado e clean
+interface Item { icon: string; title: string; desc: string; }
+interface Props { title: string; items: Item[]; }
+const { title, items } = Astro.props;
+---
+<section class="py-24 bg-white border-y border-gray-100">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="grid lg:grid-cols-12 gap-16 items-start">
+      <!-- Title Side -->
+      <div class="lg:col-span-4 sticky top-24">
+        <h2 class="text-4xl md:text-5xl font-black text-dark tracking-tighter leading-none mb-8">
+          {title}
+        </h2>
+        <p class="text-gray-500 font-medium leading-relaxed mb-8">
+          Nossa abordagem é minimalista por fora, mas densa em dados e cuidado por dentro.
+        </p>
+        <div class="w-12 h-1 bg-primary"></div>
+      </div>
+
+      <!-- Content Side -->
+      <div class="lg:col-span-8 grid sm:grid-cols-2 gap-x-12 gap-y-16">
+        {items.map((item) => (
+          <div class="group">
+            <div class="text-4xl mb-6 flex items-center gap-4">
+              <span class="p-4 rounded-full bg-gray-50 text-dark group-hover:bg-dark group-hover:text-white transition-all duration-300">
+                {item.icon}
+              </span>
+              <div class="h-px w-8 bg-gray-200 group-hover:w-16 group-hover:bg-primary transition-all duration-500"></div>
+            </div>
+            <h3 class="text-lg font-black text-dark mb-4 tracking-tight uppercase tracking-wider">{item.title}</h3>
+            <p class="text-sm text-gray-400 leading-relaxed font-medium">
+              {item.desc}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>

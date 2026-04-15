@@ -1,0 +1,53 @@
+{
+  "name": "E-COMMERCEGUIDE",
+  "slug": "e-commerceguide.com.br",
+  "description": "Ola! Meu nome é Roberto, sou uma pessoa do bem com o objetivo de ajudar as pessoas que buscam conhecimento e aprimoramento no nosso mercado. Eu trabalho na área há 10 anos na área e para mim é um prazer poder compartilhar conhecimento através da internet. Já estou há 1 ano trabalhando duro para o crescimento do blog e acredito muito que seremos o blog mais visitado do nosso mercado. O conteúdo do blog é direcionado ao público iniciante no assunto. Não espere técnicas e estratégias avançadas por aqui. Aqui você vai encontrar diversos reviews e análises técnicas sobre diversos assunto dentro do mercado. Todas as análises são feitas por especialistas e eu dedico muito tempo nas pesquisas antes de publicar.",
+  "url": "https://e-commerceguide.com.br",
+  "niche": "Negócios e Empreendedorismo",
+  "keywords": "Ola Meu nome e Roberto sou uma pessoa do bem com o",
+  "email": "contato@e-commerceguide.com.br",
+  "palette": "slate",
+  "colors": {
+    "primary": "#334155",
+    "accent": "#1e293b",
+    "dark": "#0f172a"
+  },
+  "headerContrast": "dark",
+  "font": "outfit",
+  "fontFamily": "'Outfit', sans-serif",
+  "fontUrl": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap",
+  "components": {
+    "header": "Header-D",
+    "hero": "Hero-B",
+    "features": "Features-G",
+    "about": "About-G",
+    "posts": "Posts-H",
+    "footer": "Footer-E",
+    "sobre": "Sobre-B",
+    "contato": "Contato-I"
+  },
+  "menu": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "label": "Sobre",
+      "href": "/sobre"
+    },
+    {
+      "label": "Contato",
+      "href": "/contato"
+    }
+  ],
+  "social": {
+    "instagram": "",
+    "facebook": "",
+    "twitter": "",
+    "youtube": ""
+  }
+}

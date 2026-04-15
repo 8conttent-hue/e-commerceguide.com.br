@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "title": "E-COMMERCEGUIDE — Bem-vindo ao E-COMMERCEGUIDE",
+    "description": "Seu guia para o sucesso no mundo dos negócios digitais!"
+  },
+  "hero": {
+    "title": "Bem-vindo ao E-COMMERCEGUIDE",
+    "subtitle": "Seu guia para o sucesso no mundo dos negócios digitais!",
+    "btnText": "Comece sua jornada!",
+    "bgImage": "/images/hero.jpg",
+    "btnLink": "/blog"
+  },
+  "features": {
+    "title": "O que oferecemos",
+    "items": [
+      {
+        "icon": "📚",
+        "title": "Conteúdo Rico",
+        "desc": "Artigos detalhados e revisões sobre tendências e práticas do e-commerce."
+      },
+      {
+        "icon": "🧑‍🏫",
+        "title": "Especialistas no Assunto",
+        "desc": "Todo o conteúdo é elaborado por especialistas com experiência no mercado."
+      },
+      {
+        "icon": "🎯",
+        "title": "Foco no Iniciante",
+        "desc": "Abordamos o e-commerce de forma acessível, sem complicações."
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre nós",
+    "desc": "Olá, meu nome é Roberto! Com 10 anos de experiência na área, meu objetivo é compartilhar conhecimento no mercado de e-commerce. Nosso projeto nasceu da vontade de ajudar iniciantes a entenderem os fundamentos essenciais para prosperar nesse ambiente.",
+    "stats": [
+      {
+        "value": "10+",
+        "label": "Anos de experiência"
+      },
+      {
+        "value": "1",
+        "label": "Ano de dedicação ao blog"
+      }
+    ],
+    "image": "/images/about.jpg",
+    "btnText": "Saiba Mais",
+    "btnLink": "/sobre"
+  },
+  "posts": {
+    "title": "Últimos Artigos",
+    "limit": 3,
+    "btnText": "Ver Blog",
+    "btnLink": "/blog"
+  }
+}

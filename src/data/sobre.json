@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Sobre Nós",
+    "description": "Conheça o E-COMMERCEGUIDE"
+  },
+  "hero": {
+    "title": "Sobre Nós",
+    "subtitle": "Olá, meu nome é Roberto! Com 10 anos de experiência na área, meu objetivo é compartilhar conhecimento no mercado de e-commerce. Nosso projeto nasceu da vontade de ajudar iniciantes a entenderem os fundamentos essenciais para prosperar nesse ambiente."
+  },
+  "content": "No E-COMMERCEGUIDE, acreditamos que o compartilhamento do conhecimento é a chave para o sucesso. Nosso compromisso é oferecer informações claras e úteis, ajudando você a se destacar no mundo digital.",
+  "mission": "Auxiliar iniciantes a desenvolverem suas habilidades e a prosperarem no e-commerce através de conteúdo informativo e de qualidade.",
+  "image": "/images/sobre.jpg",
+  "stats": [
+    {
+      "value": "500+",
+      "label": "Artigos"
+    },
+    {
+      "value": "100k+",
+      "label": "Leitores"
+    },
+    {
+      "value": "5",
+      "label": "Redatores"
+    }
+  ],
+  "team": []
+}
